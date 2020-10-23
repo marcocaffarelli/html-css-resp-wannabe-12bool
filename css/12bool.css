@@ -191,7 +191,6 @@
 
 }
 /* Small screen media */
-
 @media all and (max-width: 768px) {
   .col-sm-1 {
     width: calc((100%/12) *1);

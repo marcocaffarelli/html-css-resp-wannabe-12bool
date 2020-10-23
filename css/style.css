@@ -6,11 +6,6 @@
 }
 
 /* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
-}
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -24,12 +19,7 @@
 }
 
 /* BLOCCO STEPS */
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
-}
+
 
 #steps {
   text-align: center;
@@ -70,4 +60,14 @@ img {
 
 .clear {
   clear: both;
+}
+
+/* Media Query md */
+@media all and (min-width: 769px) and (max-width: 1200px){
+
+}
+
+/* Small screen media */
+@media all and (max-width: 768px){
+
 }
