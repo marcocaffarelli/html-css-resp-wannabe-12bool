@@ -43,7 +43,7 @@ img {
 }
 
 /* Media Query md */
-@media all and (min-width: 769px) and (max-width: 1200px){
+@media screen and (min-width: 769px) and (max-width: 1200px){
 
   .row{
     width: 100%;
@@ -84,13 +84,11 @@ img {
 }
 
 /* Small screen media */
-@media all and (max-width: 768px){
+@media screen and (max-width: 768px){
+
   .row{
     width: 100%;
-  }
-  #lezioni .row>.left, #lezioni .row>.right, #steps .row> .left, #steps .row> .central, #steps .row> .right{
-    width: 100%;
-    margin-top: 0;
+    margin: 0;
   }
 
   h1{
@@ -129,4 +127,11 @@ img {
     border:1px solid black;
   }
 
+}
+
+@media screen and (max-width: 349px){
+  img{
+    width: 50%;
+    height: auto;
+  }
 }
