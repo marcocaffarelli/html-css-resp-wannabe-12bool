@@ -50,31 +50,22 @@ img {
     margin-top: 0;
   }
 
-  h1{
-    font-size: 4em;
-    font-weight: lighter;
-  }
-
-  div{
-    font-size: 1.3em;
-    font-style: oblique;
-  }
-
   #lezioni .row{
     background: linear-gradient(to bottom, #000000, #434343);
     color: #A1ADC1;
-    padding: 10px;
   }
 
   #steps .row{
     background-color: #434343;
     color: orange;
-    padding: 10px;
   }
 
   #why .row{
     background: linear-gradient(to top, #000000, #434343);
     color: #428BCA;
+  }
+
+  #lezioni .row, #steps .row, #why .row{
     padding: 10px;
   }
 
@@ -89,19 +80,6 @@ img {
   .row{
     width: 100%;
     margin: 0;
-  }
-
-  h1{
-    font-size: 3em;
-    padding-top: 10px;
-  }
-
-  div{
-    font-size: 1.2em;
-  }
-
-  img{
-    margin-top: 50px;
   }
 
   .right{
@@ -125,6 +103,8 @@ img {
 
   hr{
     border:1px solid black;
+    background-color: black;
+    margin-bottom: 10px;
   }
 
 }
